@@ -13,7 +13,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
-export default function intro() {
+export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5);
     const {setActiveSection,setTimeOfLastClick} = useActiveSectionContext();
 
@@ -62,7 +62,7 @@ export default function intro() {
         >
         
         Hello, I'm Justinas. I'm a{" "}
-        <span className="italic">front-end and game developer.</span> I studied at University of Westminster graduating in{" "}
+        <span className="italic">full-stack and game developer.</span> I studied at University of Westminster graduating in{" "}
         <span className="font-bold">Bsc (Hons) Computer Games Development.</span> My focus is{" "}
         <span className="underline underline-offset-8">React (Next.js) & Unity</span>.
         
@@ -95,7 +95,7 @@ export default function intro() {
             </div>
             </a> */}
             
-            <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full bg-opacity-0 outline-none borderBlack dark:bg-white/0 dark:text-white/100 dark:border-white/20" download={true}>Download CV <HiDownload className='opacity-60 group-hover:translate-y-0.5 transition dark:text-white'/>
+            <button className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full bg-opacity-0 outline-none borderBlack dark:bg-white/0 dark:text-white/100 dark:border-white/20">Download CV <HiDownload className='opacity-60 group-hover:translate-y-0.5 transition dark:text-white'/>
             <a className="group p-0 flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCVLT.pdf" download={true} style={{ width: '32px', height: '32px' }}>
                 <Image src={LT} alt="LT Image" width={32} height={32} className="object-cover rounded-full scale-150 " />
                 
@@ -103,7 +103,7 @@ export default function intro() {
                 <a className="group p-0 flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCV.pdf" download={true} style={{ width: '32px', height: '32px' }}>
                 <Image src={UK} alt="UK Image" width={32} height={32} className="object-cover rounded-full scale-200 opacity-70" />
                 </a>
-            </a>
+            </button>
 
             <a className="bg-white px-7 py-3 flex text-gray-700 items-center gap-2 rounded-full text-[1.85rem] focus:scale-110 hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://www.linkedin.com/in/justinas-baskys-a14060171/" target="_blank">
                 <BsLinkedin />

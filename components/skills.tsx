@@ -40,7 +40,7 @@ export default function Skills() {
         ...webSkillsData.map(skill => ({ skill, type: 'Web' } as SkillItem)),
         { type: 'header', text: 'Game' },
         ...gameSkillsData.map(skill => ({ skill, type: 'Game' } as SkillItem)),
-        { type: 'header', text: 'General' },
+        { type: 'header', text: 'Other' },
         ...generalSkillsData.map(skill => ({ skill, type: 'General' } as SkillItem)),
     ];
 
@@ -53,7 +53,7 @@ export default function Skills() {
                     allSkillsWithHeaders.map((item, index) => (
                         item.type === 'header' ? (
                             <li key={index} className="w-full">
-                                <p className="text-2xl font-medium capitalize mb-1 mt-1 text-center font-style: italic dark:text-white">{item.text}</p>
+                                <p className="text-xl font-medium capitalize mb-1 mt-1 text-center font-style: italic dark:text-white">{item.text}</p>
                             </li>
                         ) : (
                             <motion.li

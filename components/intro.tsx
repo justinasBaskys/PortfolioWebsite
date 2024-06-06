@@ -109,10 +109,10 @@ export default function Intro() {
                 <span className="translate-y-1">Download CV</span>
                 <MdKeyboardDoubleArrowDown className='opacity-60 group-hover:translate-y-0.5 transition dark:text-white'/>
                 <div className="absolute top-full left-1/2 transform -translate-x-1/2 p-3 mt-1 shadow-md scale-y-0 group-hover:scale-y-100 origin-top duration-200 flex flex-row bg-white rounded-full dark:bg-white/10 dark:bg-opacity-20">
-                    <a className="flex items-center rounded-full outline-none mr-2 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCV.pdf" download={true} style={{ width: '32px', height: '32px' }}>
+                    <a className="flex items-center rounded-full outline-none mr-2 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCVLT.pdf" download={true} style={{ width: '32px', height: '32px' }}>
                         <Image src={LT} alt="LT Image" width={32} height={32} className="object-cover rounded-full scale-150 " />
                     </a>
-                    <a className="flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCVLT.pdf" download={true} style={{ width: '32px', height: '32px' }}>
+                    <a className="flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCV.pdf" download={true} style={{ width: '32px', height: '32px' }}>
                         <Image src={UK} alt="UK Image" width={32} height={32} className="object-cover rounded-full scale-200 opacity-70" />
                     </a>
                 </div>

@@ -113,7 +113,7 @@ export default function Intro() {
                         <Image src={LT} alt="LT Image" width={32} height={32} className="object-cover rounded-full scale-150 " />
                     </a>
                     <a className="flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack opacity-50 dark:bg-white/10 dark:text-white/80 text-sm overflow-hidden hover:opacity-100" href="/JustinasBaskysCV.pdf" download={true} style={{ width: '32px', height: '32px' }}>
-                        <Image src={UK} alt="UK Image" width={32} height={32} className="object-cover rounded-full scale-200 opacity-70" />
+                        <Image src={UK} alt="UK Image" width={32} height={32} className="object-cover rounded-full scale-175" />
                     </a>
                 </div>
             </button>

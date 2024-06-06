@@ -39,22 +39,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "IT, Creative Media & Game Design",
-    location: "Evesham College WCG, UK",
-    description:
-      "During my time at WCG I got my foundations set in programming, computers, networking as well as creating simple games, writing documents and becoming proficient in a multitude of platforms for creating apps/websites.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Bsc (Hons) Computer Games Development",
-    location: "University of Westminster, London, UK",
-    description:
-      "During my time at Westminster it was some of the most fulfilling years academically as well as personally - the course is heavily programming focused while giving opportunities to shine in other areas of development too in forms of group projects and optional modules.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2023",
-  },
-  {
     title: "Full-Stack Development",
     location: "",
     description:
@@ -62,7 +46,24 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "December 2024 - Present",
   },
+  {
+    title: "Bsc (Hons) Computer Games Development",
+    location: "University of Westminster, London, UK",
+    description:
+      "I worked with languages and engines such as Unity & C#, Unreal Engine 4 & C++. The projects I worked on ranged from 3D and 2D side-scroller games to Augmented Reality and VR giving me quite a versatile skillset for software development. Additionally I've worked on 3D & 2D assets with Maya, 3DS Max, Photoshop, Aseprite, SwiftUI for iOS applications as well as putting into action important concepts like Methodologies, AI, Physics, Graphics Programming, Game Networking, Market Analysis and many more...",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2023",
+  },
+  {
+    title: "BTEC IT, Creative Media & Game Design",
+    location: "Evesham College WCG, UK",
+    description:
+      "During my time at WCG I gained foundation knowledge about programming, computers, networking as well as creating simple games & their designs, writing documents and became proficient in a multitude of platforms for creating apps and websites. Additionally I learned about types of information, organizational security & acts regarding handling of information by organizations",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016 - 2019",
+  },
 ] as const;
+
 
 export const projectsData = [
   {
@@ -87,32 +88,37 @@ export const projectsData = [
       "This project is one of the more polished websites I've made in terms of front-end design and it was a great challenge learning React and CSS has been used in creative ways",
     tags: ["React", "HTML", "CSS", "Figma"],
     imageUrl: GPT3,
-    project: "developershowcase.online"
+    project: "https://developershowcase.online/"
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "PHP",
-  "SQL",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Framer Motion",
+export const gameSkillsData = [
+  "Unity",
+  "Unreal Engine 4",
   "C#",
   "C++",
-  "Python",
-  "Unity",
-  "UE4",
   "MonoGame",
+  "Aseprite",
+] as const;
+
+export const webSkillsData = [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Node.js",
+  "PHP",
+  "SQL",
+  "Tailwind",
+  "Framer Motion",
+  "HTML",
+  "CSS",
+] as const;
+
+export const generalSkillsData = [
+  "Git",
+  "Photoshop",
   "Maya",
   "Blender",
-  "Aseprite",
-  "Photoshop",
-
+  "Python",
 ] as const;

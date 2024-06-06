@@ -9,7 +9,8 @@ export default function About() {
 
 
   return ( 
-  <motion.section ref={ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+  
+  <motion.section ref={ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 text-lg"
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.175 }}
@@ -37,21 +38,24 @@ export default function About() {
 
     <p className="mb-5">
       <span className="italic">After graduating with a degree </span> in{" "}
-      <span className="font-medium">Computer Games Development</span>, I decided to pursue my
-      passion for programming and try out different things. I have been self-teaching{" "}
+      <span className="font-medium">Computer Games Development</span> I have been self-teaching{" "}
       <span className="font-medium">Full-Stack Web Development</span>{" "}
-      and have taken a keen interest in mastering industry standard languages, libraries & frameworks. During this time I have found myself really enjoying the work-flow of web development all the way through. In my academic life I've built projects using <span className="font-medium">HTML, CSS</span> and <span className="font-medium">JavaScript</span> as well as database functionality with <span className="font-medium">PHP & SQL</span> which has been a great starting point and now I've picked up React, Next.js as well as many other tools like Tailwind CSS and Framer Motion which I've really enjoyed using and have seen great results from.
+      and have taken a keen interest in mastering industry standard languages, libraries and frameworks. During this time I have found myself really enjoying the work-flow of web development all the way through. In my academic life I've built websites/databases and now I've picked up React, Next.js as well as many other tools like Tailwind CSS and Framer Motion which I've really enjoyed using and have seen great results from.
     </p>
-    <p className="mb-3">
+
+    <p className="mb-5">During my journey as a <span className="font-bold">game developer</span> I have worked as a programmer, artist and a designer which has given me a very versatile skillset in all areas of the development lifecycle enhanced by my ability for problem-solving, creativity and independent way of working.
+    </p>
+
+    {/* <p className="mb-3">
       <span className="italic">During my journey as a <span className="font-medium">Game Developer</span></span> I worked with languages and engines such as <span className="font-medium">Unity</span> & <span className="font-medium">C#</span>, <span className="font-medium">Unreal Engine 4</span> and <span className="font-medium">C++</span>. The projects I worked on ranged from 3D and 2D side-scroller games to Augmented Reality and VR giving me quite a versatile skillset for software development. Additionally I've worked on 3D & 2D assets with Maya, 3DS Max, Photoshop, Aseprite, SwiftUI for iOS applications as well as putting into action important concepts like <span className="font-medium">Methodologies, AI, Physics, Graphics Programming, Game Networking, Market Analysis and many more...</span>
+    </p> */}
+
+    <p className="mb-3">
+    <span className="italic">In my free time I enjoy</span> gaming, working out, cooking and more recently resin 3D printing - some models I create in Blender, others find online and then print them and colour them with acrylic paint also I love learning about programming, technology, health and history.
     </p>
 
     <p className="mb-3">
-    <span className="italic">Currently I am looking for a </span><span className="font-bold">full-time position</span> as a <span className="font-bold">software developer</span>
-    </p>
-
-    <p className="mb-3">
-    <span className="italic">In my free time I enjoy</span> gaming, working out, cooking and more recently resin 3D printing - some models I create in Blender, others find online and then print them and colour them with acrylic paint. I really enjoy doing various activities - recently I went indoor rock climbing, go-karting, mini golf and I love learning about programming, history and technology.
+    <span className="italic">Currently I am looking for a </span><span className="font-bold">full-time position</span> as a <span className="font-bold">software developer</span> 
     </p>
 
     {/* <p className="mb-3">
@@ -64,5 +68,6 @@ export default function About() {
     </p> */}
 
   </motion.section>
+  
   
 )}

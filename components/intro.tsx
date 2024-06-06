@@ -75,12 +75,12 @@ export default function Intro() {
         transition ={{
             delay: 0.1,
         }}>
-            <Link href="#contact" className="group  bg-gray-900 text-white px-7 borderBlack py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:border-white/20">Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"
+            {/* <Link href="#contact" className="group  bg-gray-900 text-white px-7 borderBlack py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:border-white/20">Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition"
             onClick={() => {
                 setActiveSection("Contact");
                 setTimeOfLastClick(Date.now());
             }}
-            /> </Link>
+            /> </Link> */}
             
             {/* <a className="group flex flex-col items-center bg-white px-3 py-1.5 gap-1 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80 text-sm" href="/JustinasBaskysCV.pdf" download={true}>
             <div className="mb-1 translate-y-1.5">
@@ -105,7 +105,7 @@ export default function Intro() {
                 </a>
             </button> */}
 
-            <button className="group relative bg-white px-7 py-1 flex flex-col items-center gap-1 rounded-full bg-opacity-0 outline-none borderBlack dark:bg-white/0 dark:text-white/100 dark:border-white/20" >
+            <button className="group relative bg-white px-9 py-1 flex flex-col items-center gap-1 rounded-full bg-opacity-0 outline-none borderBlack dark:bg-white/0 dark:text-white/100 dark:border-white/20" >
                 <span className="translate-y-1">Download CV</span>
                 <MdKeyboardDoubleArrowDown className='opacity-60 group-hover:translate-y-0.5 transition dark:text-white'/>
                 <div className="absolute top-full left-1/2 transform -translate-x-1/2 p-3 mt-1 shadow-md scale-y-0 group-hover:scale-y-100 origin-top duration-200 flex flex-row bg-white rounded-full dark:bg-white/10 dark:bg-opacity-20">
@@ -119,11 +119,11 @@ export default function Intro() {
             </button>
             
 
-            <a className="bg-white px-7 py-3 flex text-gray-700 items-center gap-2 rounded-full text-[1.85rem] focus:scale-110 hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://www.linkedin.com/in/justinas-baskys-a14060171/" target="_blank">
+            <a className="bg-white px-7 py-4 flex text-gray-700 items-center gap-2 rounded-full text-[1.85rem] focus:scale-110 hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://www.linkedin.com/in/justinas-baskys-a14060171/" target="_blank">
                 <BsLinkedin />
             </a>
 
-            <a className="bg-white px-7 py-3 flex text-gray-700 items-center gap-2 rounded-full text-[2rem] focus:scale-105 hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://github.com/justinasBaskys" target="_blank">
+            <a className="bg-white px-7 py-4 flex text-gray-700 items-center gap-2 rounded-full text-[2rem] focus:scale-105 hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://github.com/justinasBaskys" target="_blank">
                 <FaGithubSquare />
             </a>
 

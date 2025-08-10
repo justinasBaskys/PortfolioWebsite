@@ -38,13 +38,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
+  /*{
     title: "Full-Stack Development",
     location: "",
     description:
-      "Right now I am mastering industry standard tools that reinforce my web development skills and then I am looking to possibly go into full-stack development professionally whether it will be at a company or freelancer work",
+        "Right now I am mastering industry standard tools that reinforce my web development skills and then I am looking to possibly go into full-stack development professionally whether it will be at a company or freelancer work",
     icon: React.createElement(FaReact),
     date: "December 2024 - Present",
+  },*/
+  {
+    title: "Intern Unity Developer At Chark Studio",
+    location: "Kaunas",
+    description:
+        "Game mechanics and shader creation using Unity, Shader Graph and HLSL. Preparation of new prototypes according to established criteria.",
+    icon: React.createElement(FaReact),
+    date: "November 2024 - January 2025",
   },
   {
     title: "Bsc (Hons) Computer Games Development",

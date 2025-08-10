@@ -47,10 +47,10 @@ export const experiencesData = [
     date: "December 2024 - Present",
   },*/
   {
-    title: "Intern Unity Developer At Chark Studio",
-    location: "Kaunas",
+    title: "Intern Unity Developer",
+    location: "Chark Studio, Kaunas",
     description:
-        "Game mechanics and shader creation using Unity, Shader Graph and HLSL. Preparation of new prototypes according to established criteria.",
+        "Game mechanics and shader creation using Unity, Shader Graph and HLSL. During my time at Chark Studio I was creating prototypes based on the director's ideas and feedback. I was tasked with creating a unique shader/game mechanic which we didn't know if it would be possible to create at the time and I managed to come up with a great result",
     icon: React.createElement(FaReact),
     date: "November 2024 - January 2025",
   },
